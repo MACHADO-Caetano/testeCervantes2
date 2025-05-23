@@ -36,13 +36,14 @@ class DatabaseUser {
   }
 
   Future<void> _createDB(Database db, int version) async {
-    await db.execute('''
+  await db.execute('''
     CREATE TABLE users (
-      codUser INTEGER PRIMARY KEY,
-      name TEXT NOT NULL
+      codUser INTEGER PRIMARY KEY CHECK (codUser > 0),
+      name TEXT NOT NULL CHECK (LENGTH(name) > 0)
     )
-    ''');
+  ''');
   }
+
 
   Future<int> create(User user) async {
     if (user.codUser! <= 0) {
