@@ -81,6 +81,7 @@ flutter run -d windows # ou macos/linux conforme seu SO
 ```
 
 ## 📂 Organização do Projeto
+
 teste_cervantes/
 │
 ├── lib/
@@ -89,6 +90,7 @@ teste_cervantes/
 │   └── databaseUser.dart   # Gerenciador do banco de dados (users.db + logs.db)
 │
 └── README.md               # Documentação do projeto
+
 
 ## 🤝 Autor
 Desenvolvido por Caetano Machado
