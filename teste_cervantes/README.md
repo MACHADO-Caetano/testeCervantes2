@@ -30,7 +30,7 @@ CREATE TABLE users (
   name TEXT NOT NULL CHECK (LENGTH(name) > 0)
 );
 ```
-###`logs.db`
+### `logs.db`
 Contém a tabela de logs:
 
 ```sql
