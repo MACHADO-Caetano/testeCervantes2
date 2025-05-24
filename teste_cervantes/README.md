@@ -41,7 +41,7 @@ CREATE TABLE logs (
 );
 ```
 
-🛡️ Validações
+## 🛡️ Validações
 As validações são implementadas em duas camadas:
 
 💻 No Código (Flutter)
@@ -58,7 +58,7 @@ name → CHECK (LENGTH(name) > 0)
 
 NOT NULL para garantir presença dos dados
 
-▶️ Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 Pré-requisitos
 Flutter instalado
 
@@ -80,7 +80,7 @@ flutter pub get
 flutter run -d windows # ou macos/linux conforme seu SO
 ```
 
-📂 Organização do Projeto
+## 📂 Organização do Projeto
 teste_cervantes/
 │
 ├── lib/
@@ -90,7 +90,7 @@ teste_cervantes/
 │
 └── README.md               # Documentação do projeto
 
-🤝 Autor
+## 🤝 Autor
 Desenvolvido por Caetano Machado
 
 
