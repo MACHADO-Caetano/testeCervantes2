@@ -83,16 +83,12 @@ flutter run -d windows # ou macos/linux conforme seu SO
 ## 📂 Organização do Projeto
 
 teste_cervantes/
-│
 ├── lib/
-│   ├── main.dart           # Tela principal e lógica da interface
-│   ├── user.dart           # Modelo de dados do usuário
-│   └── databaseUser.dart   # Gerenciador do banco de dados (users.db + logs.db)
-│
-└── README.md               # Documentação do projeto
+│   ├── main.dart              # Tela principal e lógica da interface
+│   ├── user.dart              # Modelo de dados do usuário
+│   └── databaseUser.dart      # Gerenciador do banco de dados (users.db + logs.db)
+└── README.md                  # Documentação do projeto
 
 
 ## 🤝 Autor
 Desenvolvido por Caetano Machado
-
-
